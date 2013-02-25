@@ -1,0 +1,1 @@
+clang -g2 -O0 -o yaranids -I/usr/home/ckane/yara-ids/include -I/usr/local/include yaranids.c -lpcap -L/usr/local/lib -lnids -L/usr/local/lib/libnet11 -lnet -lglib-2.0 -lgthread-2.0 -L/usr/home/ckane/yara-ids/lib -lyara
